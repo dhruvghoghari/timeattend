@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "470228803276",
+    "project_id": "timeattend-9f4bb",
+    "storage_bucket": "timeattend-9f4bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470228803276:android:8de93a4d165d7820b3ac69",
+        "android_client_info": {
+          "package_name": "com.example.timeattend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470228803276-gseosbl9vl6ujs0i7hso0hjplkm0ocho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timeattend",
+            "certificate_hash": "f436a10d695d8e7bc805c9369380fe5a7ebfa6b7"
+          }
+        },
+        {
+          "client_id": "470228803276-8ggiidt8dt4ds856tjqbc03qj5p7v9lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADeK0omNiUaPu88xp1mEocHIy2WnMlRk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470228803276-8ggiidt8dt4ds856tjqbc03qj5p7v9lo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "470228803276-721tpn31bmm15r9ardfohaccl0897has.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.timeattend"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
