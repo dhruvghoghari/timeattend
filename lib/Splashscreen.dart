@@ -76,7 +76,6 @@ class _SplashscreenState extends State<Splashscreen> {
             ),
           ],
         ),
-
       ),
     );
   }

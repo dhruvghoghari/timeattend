@@ -20,7 +20,7 @@ class _SignupState extends State<Signup> {
 
 
   signup(String email,String password, String first,String last) async {
-    if(email=="" && password=="" && first=="" && last=="")
+    if(email=="" && password=="")
       {
         uiHelper.customAlertbox(context, "Enter Required Filed");
       }
@@ -95,8 +95,6 @@ class _SignupState extends State<Signup> {
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          uiHelper.CustomTextField(firstController, "Firstname",Icons.person,false),
-                          uiHelper.CustomTextField(lastController, "Lastname",Icons.person_add_alt_1_outlined,false),
                           uiHelper.CustomTextField(emailController, "Email Id", Icons.email_outlined, false),
                           uiHelper.CustomTextField(passwordController, "Password", Icons.lock, true),
 

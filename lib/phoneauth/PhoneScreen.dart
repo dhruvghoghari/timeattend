@@ -82,8 +82,7 @@ class _PhoneScreenState extends State<PhoneScreen> {
                         height: 50.0,
                         child: ElevatedButton(
                             onPressed: () async {
-                              await FirebaseAuth.instance.verifyPhoneNumber(
-                                  verificationCompleted: (PhoneAuthCredential credential) {},
+                              await FirebaseAuth.instance.verifyPhoneNumber(verificationCompleted: (PhoneAuthCredential credential) {},
                                   verificationFailed: (FirebaseAuthException ex) {},
                                   codeSent: (String verificationid, int? resendtoken) {
 
